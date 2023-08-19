@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Peru SAC"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/tiendita_perusac" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frutas"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/fresitas" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Verduras"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/zanahorias" />
+
+    <Button
+        android:id="@+id/btPedidos"
+        android:text="Hacer pedido"
+        android:layout_width="220dp"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/btinfo"
+        android:text="Obtener mas informacion"
+        android:layout_width="220dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btsalir"
+        android:text="Salir de la pagina"
+        android:layout_width="220dp"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sede Chincha"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calle Los Santos 1008 - Chincha Alta"
+        android:textSize="16dp" />
+
+
+
+</LinearLayout>
